@@ -1,0 +1,8 @@
+# Part de l'OS ubuntu/ Recherche dans ubuntu
+FROM node:ubuntu 20.04
+# Lance téléchargement
+RUN apt update
+# Lance l'installation demandée
+RUN apt install -y nginx, php-fpm
+
+
